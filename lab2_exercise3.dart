@@ -13,7 +13,7 @@ void main() {
   print('Update student score: ${StudentScore}');
   print('Student key is: ${StudentScore.keys}');
   print('Student valuse is: ${StudentScore.values}');
-  print('Subject and score with a ${Map.fromEntries(StudentScore.entries.where((entry) => entry.key.contains('a')))}');
+  print('Subject and score with a is ${Map.fromEntries(StudentScore.entries.where((entry) => entry.key.contains('a')))}');
   print('Subject and score more then 50 score${Map.fromEntries(StudentScore.entries.where((entry) => entry.value >= 50))}');
 
   

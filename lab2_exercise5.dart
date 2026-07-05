@@ -20,10 +20,12 @@ void main(){
   grade(52);
   grade(49);
   grade(35);
+
   print('');
   for(int i = 1; i <= 10 ; i++){
     print(i);
   }
+  
   print('');
   var friut = ['apple','banana','cherry'];
   print('friut');
